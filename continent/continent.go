@@ -13,6 +13,6 @@ func Continentnames() []string {
 
 
 func ContinentDistance() map[int]string {
-	continent := map[int]string{1011: "Asia", 1021: "Africa", 1031: "North America", 1041: "South America", 1051: "Antarctica", 1061: "Europe", 1071: "Oceania"}
+	continent := map[int]string{111: "Asia", 121: "Africa", 131: "North America", 141: "South America", 151: "Antarctica", 161: "Europe", 171: "Oceania"}
 	return continent
 }
