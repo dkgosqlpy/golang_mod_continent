@@ -13,11 +13,6 @@ func Solarnames() []string {
 
 func SolarDistance(id int) map[int]string {
 	continent := map[int]string{1011: "Mercury", 1012: "Venus", 1013: "Earth", 1014: "Mars", 1015: "Jupiter", 1016: "Saturn", 1017: "Uranus", 1018: "Neptune", 1019: "Pluto"}
-
-	for i, cont := range continent {
-
-	}
-
 	return continent
 }
 
